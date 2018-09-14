@@ -3,10 +3,10 @@
 
 <?php
 /* Database credentials for MySQL */
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'remote');
-define('DB_PASSWORD', 'M4st3rY0d4');
-define('DB_NAME', 'test');
+define('DB_SERVER', 'xx');
+define('DB_USERNAME', 'xx');
+define('DB_PASSWORD', 'xx');
+define('DB_NAME', 'xx');
 
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
