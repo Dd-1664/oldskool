@@ -5,7 +5,7 @@ session_start();
 if (!empty($_SESSION['email']) && !empty($_SESSION['pass']))
 {
     //DATABASE CONNECT
-    $connection = mysqli_connect('localhost', 'remote', 'M4st3rY0d4', 'test');
+    $connection = mysqli_connect('xx', 'xx', 'xx', 'xx');
     if (!$connection){
         die("Database Connection Failed" . mysqli_error($connection));
     }
